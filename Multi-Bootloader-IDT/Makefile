@@ -2,7 +2,7 @@
 
 # Compiler and assembler flags
 CC = gcc
-CFLAGS = -Wall -m32 -fno-pie -O -fstrength-reduce -fomit-frame-pointer -finline-functions -nostdinc -fno-builtin -I./include
+CFLAGS = -Wall -m32 -fno-pie -O0 -fstrength-reduce -fomit-frame-pointer -finline-functions -nostdinc -fno-builtin -I./include
 AS = nasm
 ASFLAGS = -f elf
 
